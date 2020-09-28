@@ -18,14 +18,24 @@ void MainMenu() {
 	system("CLS");
     std::cout << "Please give the number of the assignment you want to view\n";
 	std::cin >> x;
-	system("CLS");
+	
 
 	switch (x) {
+	case 1 :
+		std::cout << "Look at code at Opdracht1.h\n";
+		std::cin.ignore(INT_MAX, '\n');
+		std::cin.get();
+		MainMenu();
+		break;
 	case 2 :
+		system("CLS");
 		opdracht2.SimonSays();
 		break;
 	default :
 		std::cout << "Please enter a valid number\n";
+		std::cin.ignore(INT_MAX, '\n');
+		std::cin.get();
+		MainMenu();
 		break;
 	}
 }
