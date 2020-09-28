@@ -2,10 +2,32 @@
 //
 
 #include <iostream>
+#include "Opdracht2.h"
+
+void MainMenu();
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	MainMenu();
+}
+
+void MainMenu() {
+	Opdracht2 opdracht2;
+	int x;
+
+	system("CLS");
+    std::cout << "Please give the number of the assignment you want to view\n";
+	std::cin >> x;
+	system("CLS");
+
+	switch (x) {
+	case 2 :
+		opdracht2.SimonSays();
+		break;
+	default :
+		std::cout << "Please enter a valid number\n";
+		break;
+	}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
