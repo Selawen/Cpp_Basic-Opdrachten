@@ -15,9 +15,9 @@ public:
 	char inputChar;
 	bool succeeded;
 
-	void SimonSays() {}
+	void SimonSays();
 
 private:
-	void LevelEnd() {}
+	void LevelEnd();
 };
 

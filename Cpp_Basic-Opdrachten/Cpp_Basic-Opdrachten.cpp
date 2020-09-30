@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Opdracht2.h"
+#include "Opdracht3.h"
 
 void MainMenu();
 
@@ -13,6 +14,7 @@ int main()
 
 void MainMenu() {
 	Opdracht2 opdracht2;
+	Opdracht3 opdracht3;
 	int x;
 
 	system("CLS");
@@ -22,7 +24,7 @@ void MainMenu() {
 
 	switch (x) {
 	case 1 :
-		std::cout << "Look at code at Opdracht1.h\n";
+		std::cout << "Look at code Opdracht1.h\n";
 		std::cin.ignore(INT_MAX, '\n');
 		std::cin.get();
 		MainMenu();
@@ -30,6 +32,10 @@ void MainMenu() {
 	case 2 :
 		system("CLS");
 		opdracht2.SimonSays();
+		break;
+	case 3 :
+		system("CLS");
+		opdracht3.start();
 		break;
 	default :
 		std::cout << "Please enter a valid number\n";
