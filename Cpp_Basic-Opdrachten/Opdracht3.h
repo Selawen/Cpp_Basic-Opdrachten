@@ -56,5 +56,5 @@ public:
 private:
 	void setInfo() ;
 	void writeInfo() ;
-	void deleteEntities() ;
+	//void deleteEntities() ;
 };
