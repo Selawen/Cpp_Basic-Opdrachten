@@ -156,12 +156,14 @@
     <ClCompile Include="Opdracht2.cpp" />
     <ClCompile Include="Opdracht3.cpp" />
     <ClCompile Include="Opdracht4.cpp" />
+    <ClCompile Include="Opdracht5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Opdracht1.h" />
     <ClInclude Include="Opdracht2.h" />
     <ClInclude Include="Opdracht3.h" />
     <ClInclude Include="Opdracht4.h" />
+    <ClInclude Include="Opdracht5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

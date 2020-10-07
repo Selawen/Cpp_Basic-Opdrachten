@@ -5,6 +5,7 @@
 #include "Opdracht2.h"
 #include "Opdracht3.h"
 #include "Opdracht4.h"
+#include "Opdracht5.h"
 
 void MainMenu();
 
@@ -17,6 +18,7 @@ void MainMenu() {
 	Opdracht2 opdracht2;
 	Opdracht3 opdracht3;
 	Opdracht4 opdracht4;
+	Opdracht5 opdracht5;
 	int x;
 
 	system("CLS");
@@ -42,6 +44,10 @@ void MainMenu() {
 	case 4 :
 		system("CLS");
 		opdracht4.startAutomaat();
+		break;	
+	case 5 :
+		system("CLS");
+		opdracht5.start();
 		break;
 	default :
 		std::cout << "Please enter a valid number\n";

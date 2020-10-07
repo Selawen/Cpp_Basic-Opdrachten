@@ -30,6 +30,9 @@
     <ClCompile Include="Opdracht4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Opdracht5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Opdracht2.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Opdracht4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opdracht5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
