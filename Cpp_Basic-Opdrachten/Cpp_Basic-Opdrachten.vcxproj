@@ -162,6 +162,7 @@
     <ClCompile Include="Opdracht4.cpp" />
     <ClCompile Include="Opdracht5.cpp" />
     <ClCompile Include="Opdracht6.cpp" />
+    <ClCompile Include="Opdracht7.cpp" />
     <ClCompile Include="Sokken.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +176,7 @@
     <ClInclude Include="Opdracht4.h" />
     <ClInclude Include="Opdracht5.h" />
     <ClInclude Include="Opdracht6.h" />
+    <ClInclude Include="Opdracht7.h" />
     <ClInclude Include="Sokken.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
