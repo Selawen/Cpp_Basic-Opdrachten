@@ -51,6 +51,9 @@
     <ClCompile Include="Sokken.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Opdracht7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Opdracht2.h">
@@ -84,6 +87,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sokken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opdracht7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
